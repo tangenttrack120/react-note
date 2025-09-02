@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer components {
+  .todo {
+    @apply w-150 min-h-183 bg-white rounded-3xl m-auto mt-43 mb-25 flex flex-col px-10 pb-8;
+  }
+  .todo-header {
+    @apply mt-11 text-[#002765] text-4xl font-semibold leading-8;
+  }
+  .todo-add {
+    @apply flex justify-center items-center mt-11;
+  }
+  .todo-input {
+    @apply rounded-[50px] bg-[#edeef0] outline-none border-none w-xl h-20 pl-[35px] text-xl;
+  }
+}
