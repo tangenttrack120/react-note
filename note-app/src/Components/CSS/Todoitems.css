@@ -13,4 +13,7 @@
   .todoitems-cross-icon {
     @apply cursor-pointer pr-[25px];
   }
+  .line {
+    @apply line-through decoration-[#ADADAD] decoration-3;
+  }
 }
