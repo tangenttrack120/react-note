@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@layer components {
+  .todoitems {
+    @apply flex justify-between py-4 items-center;
+  }
+  .todoitems-container {
+    @apply flex;
+  }
+  .todoitems-text {
+    @apply pl-4 text-[#404040] text-[22px];
+  }
+  .todoitems-cross-icon {
+    @apply cursor-pointer pr-[25px];
+  }
+}

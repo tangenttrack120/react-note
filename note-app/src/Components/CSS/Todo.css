@@ -13,4 +13,7 @@
   .todo-input {
     @apply rounded-[50px] bg-[#edeef0] outline-none border-none w-xl h-20 pl-[35px] text-xl;
   }
+  .todo-add-btn {
+    @apply rounded-[50px] bg-[#ff6739] w-[187px] h-20 flex justify-center items-center ml-[-100px] text-white text-[26px] font-semibold cursor-pointer;
+  }
 }
